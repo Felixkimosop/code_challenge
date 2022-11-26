@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
     <h1>Grade Calculator</h1>
 
     <h2>Enter your marks here</h2>
   
     <form action="submit">
 
-        <input type="number" name="grade" placeholder="0">
+        <input id="marks" type="number" name="grade" placeholder="Marks" required>
     </form>
-    <button>Check</button>
+    <button onclick="calculate()">Check</button>
 
 
-    <p>Your grade is...</p>
+    <p id="calc">Your grade is...</p>
     <script src="index.js"></script>
+</div>
 </body>
 </html>
