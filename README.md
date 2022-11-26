@@ -16,6 +16,7 @@ Languages; Html,CSS,Javascript
 Input the student marks and the student's grade will show
 
 ## Live link
+https://felixkimosop.github.io/code_challenge/
 
 
 
