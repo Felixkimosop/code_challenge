@@ -13,7 +13,7 @@ Terminal
 Languages; Html,CSS,Javascript
 
 ## How to run it
-Input the student marks and the student's grade will show
+Enter the speed limit and the program will determine if you are in the right speed or exceeded the limit. If so how many points have you added or if you license has been suspended.
 
 ## Live link
 https://felixkimosop.github.io/code_challenge/

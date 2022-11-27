@@ -1,6 +1,6 @@
 function calculate(){
    let marks = document.getElementById('marks').value;
-
+// If entered marks greater than 100
 
 if(marks >100){
     document.getElementById('calc').innerHTML = `INVALID`
@@ -23,6 +23,8 @@ else if(marks>0){
 else if(marks<0){
     document.getElementById('calc').innerHTML = `INVALID`
 }
+
+// if left blank
 else{
     document.getElementById('calc').innerHTML = `PLEASE ENTER YOUR MARKS!`
 }
