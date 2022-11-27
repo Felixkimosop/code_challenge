@@ -2,7 +2,10 @@ function calculate(){
    let marks = document.getElementById('marks').value;
 
 
-if(marks >=79){
+if(marks >100){
+    document.getElementById('calc').innerHTML = `INVALID`
+}
+else if(marks >=79){
     document.getElementById('calc').innerHTML = `Your grade is A`
 }
 else if(marks >= 60){
@@ -16,6 +19,9 @@ else if (marks >= 40){
 }
 else if(marks>0){
     document.getElementById('calc').innerHTML = `Your grade is E`
+}
+else if(marks<0){
+    document.getElementById('calc').innerHTML = `INVALID`
 }
 else{
     document.getElementById('calc').innerHTML = `PLEASE ENTER YOUR MARKS!`
